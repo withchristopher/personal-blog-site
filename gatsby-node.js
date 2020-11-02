@@ -17,7 +17,7 @@ exports.createPages = ({ graphql, actions }) => {
                   slug
                 }
               }
-            }
+            },
           }
         `
       ).then(result => {
@@ -31,6 +31,16 @@ exports.createPages = ({ graphql, actions }) => {
           createPage({
             path: `/blog/${post.node.slug}/`,
             component: blogPost,
+            context: {
+              slug: post.node.slug,
+            },
+          })
+        })
+        const portfolio = result.data.allContentfulBlogPost.edges
+        portfolio.forEach(post => {
+          createPage({
+            path: `/portfolio/${post.node.slug}`,
+            component: portfolioPost,
             context: {
               slug: post.node.slug,
             },
