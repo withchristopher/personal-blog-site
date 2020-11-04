@@ -500,28 +500,28 @@
             },
             "fields": {
                 "name": {
-                    "en-US": "Chris Maxwell"
+                    "en-US": "Learning Graph"
                 },
                 "title": {
-                    "en-US": "Fullstack Web Developer"
+                    "en-US": "Fullstack Web Developer Course"
                 },
                 "company": {
-                    "en-US": "HADEDA"
+                    "en-US": ""
                 },
                 "shortBio": {
-                    "en-US": "Building secure web applications."
+                    "en-US": "Your course content provided for you."
                 },
                 "email": {
-                    "en-US": "chmaxwel@icloud.com"
+                    "en-US": ""
                 },
                 "phone": {
                     "en-US": ""
                 },
                 "facebook": {
-                    "en-US": "johndoe"
+                    "en-US": ""
                 },
                 "twitter": {
-                    "en-US": "https://twitter.com/withchristopher"
+                    "en-US": ""
                 },
                 "github": {
                     "en-US": "https://github.com/withchristopher"
